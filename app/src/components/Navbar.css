@@ -1,0 +1,50 @@
+ .nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+ }
+ .nav h5{
+    padding:7px;
+    border-width: 1px;
+    border-radius: 6px;
+    margin-right: 10px;
+ }
+ .nav h5:hover{
+    cursor: pointer;
+ }
+  .active{
+    background-color: blue;
+    color: white;
+  }
+ 
+ #footer h5,
+ p,
+ span:hover {
+     cursor: pointer;
+ }
+
+ #card:hover {
+     cursor: pointer;
+ }
+
+ #header h4:hover {
+     cursor: pointer;
+     color: blue;
+ }
+#logo{
+    text-decoration: none;
+}
+#cart{
+    text-decoration: none;
+    color: black;
+}
+.frm{
+    position: relative;
+    margin-left: 50%;
+    margin-bottom: 1rem;
+}
+.table {
+ border: 1px solid;
+ 
+
+}
